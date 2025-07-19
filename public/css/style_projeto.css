@@ -1,0 +1,50 @@
+/* Prevenção de scroll quando overlay está ativo */
+body.no-scroll {
+    overflow: hidden;
+}
+
+.logo {
+    width: 200px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+.social-links img {
+    margin-right: 0.5rem;
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--background-light);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}

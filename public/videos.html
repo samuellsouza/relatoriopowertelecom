@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Demandas de Rede</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2c3e50',
+                        secondary: '#3498db',
+                        danger: '#e74c3c',
+                        warning: '#f39c12',
+                        success: '#2ecc71',
+                        info: '#3498db',
+                        dark: '#1a202c',
+                        light: '#f7fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <div class="container mx-auto px-4 py-6">
+        <!-- Header -->
+        <header class="bg-primary text-white rounded-xl shadow-md mb-8 p-6 text-center">
+
+            <h1 class="text-3xl font-bold mb-2">Fotos e Videos</h1>
+            <p class="text-lg opacity-90"></p>
+            <div class="mt-4 flex justify-center">
+                <span class="inline-block bg-secondary px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-calendar-alt mr-1"></i> Atualizado em: 07/07/2025
+                </span>
+            </div>
+            <div class="mt-4 flex justify-center gap-4">
+                <span class="inline-block bg-secondary hover:bg-gray-600 px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-home mr-1"></i> <a href="index.html">Ínicio</a>
+                </span>
+                <span class="inline-block bg-secondary hover:bg-gray-600 px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-project-diagram mr-1"></i> <a href="novo_projetos.html">Novo Projetos</a>
+                </span>
+                <span class="inline-block bg-secondary hover:bg-gray-600 px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-file mr-1"></i><a href="arquivos.html"> Arquivos</a>
+                </span>
+            </div>
+        </header>
+    </div>
+    <main class="container mx-auto p-4">
+        <h1 class="text-5xl font-bold header-gradient mb-4">
+                Vídeos - Infra
+            </h1>
+            
+            <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-6 rounded-full"></div>
+        <!-- Video Gallery 3° Rota-->
+        <section class="glass-effect rounded-2xl p-8 shadow-2xl">
+            <div>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                Confira os vídeos que a equipe de infraestruta esta emfretando para passar com bobina de Fibra.
+            </p>
+            </div>
+            <div class="grid gap-8 md:gap-12">
+                <!-- Video 1 -->
+                <article class="video-card rounded-2xl p-2 ">
+                    <div class="bg-white rounded-xl p-4">
+                        <div class="video-container relative">
+                            <div class="relative pt-[56.25%]">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg"
+                                    src="https://www.youtube.com/embed/GPwhZ0NMAAs" 
+                                    title="Vídeo 1"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="video-overlay"></div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Video 2 -->
+                <article class="video-card rounded-2xl p-2">
+                    <div class="bg-white rounded-xl p-4">
+                        <div class="video-container relative">
+                            <div class="relative pt-[56.25%]">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg"
+                                    src="https://www.youtube.com/embed/QlcWsDnhrj4" 
+                                    title="Vídeo 2"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="video-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Video 3 -->
+                <article class="video-card rounded-2xl p-2">
+                    <div class="bg-white rounded-xl p-4">
+                        <div class="video-container relative">
+                            <div class="relative pt-[56.25%]">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg"
+                                    src="https://www.youtube.com/embed/wKlN4eST2X8" 
+                                    title="Vídeo 3"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="video-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Video Gallery Feira de Santana -->
+        <section class="glass-effect rounded-2xl p-8 shadow-2xl">
+            <div>
+                <h1 class="text-5xl font-bold header-gradient mb-4">
+                Feira de Santana
+            </h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-6 rounded-full"></div>
+                <p class="text-gray-600 text-lg text-center max-w-2xl mx-auto pt-4">
+                Mundança no Backbone de Rotas de Berimbau 
+            </p>
+            <div class="grid gap-8 md:gap-12">
+                <!-- Video 1 -->
+                <article class="video-card rounded-2xl p-2">
+                    <div class="bg-white rounded-xl p-4">
+                        <div class="video-container relative">
+                            <div class="relative pt-[56.25%]">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg"
+                                    src="https://youtube.com/embed/SXMBwRvrQAg?feature=share" 
+                                    title="Vídeo 1"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="video-overlay"></div>
+                            </div>
+                            <p class="text-gray-600 text-lg pt-4">Para realizar a mudança nesta rota, foi necessário Lançar fibra óptica.</p>
+                        </div>
+                        <div class="mt-4 flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Video 2 -->
+                <article class="video-card rounded-2xl p-2">
+                    <div class="bg-white rounded-xl p-4">
+                        <div class="video-container relative">
+                            <div class="relative pt-[56.25%]">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg"
+                                    src="https://youtube.com/embed/r2apFmk7S1Y?si=OkfLPmCM1BXlBSpY" 
+                                    title="Vídeo 2"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="video-overlay"></div>
+                            </div>
+                             <p class="text-gray-600 text-lg pt-4">Nessa rota, foi necessário alterar o percurso da fibra, pois os postes serão removidos, foi necessário Lançar fibra óptica.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Video 3 
+                <article class="video-card rounded-2xl p-6 shadow-xl">
+                    <div class="bg-white rounded-xl p-4">
+                        <div class="video-container relative">
+                            <div class="relative pt-[56.25%]">
+                                <iframe 
+                                    class="absolute top-0 left-0 w-full h-full rounded-lg"
+                                    src="https://www.youtube.com/embed/wKlN4eST2X8" 
+                                    title="Vídeo 3"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                                <div class="video-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>-->
+            </div>
+        </section>
+
+    </main>
+    <section>
+        <nav class="social-links">
+            <a href="http://WA.me/5575991790787" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp ícone">Whatsapp</a>
+
+            <a href="https://www.instagram.com/shamwellsouza/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram ícone">Instagram</a>
+
+            <a href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn ícone">LinkedIn</a>
+
+            <a href="https://github.com/SamuelSouza" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/material-rounded/48/github.png" alt="GitHub ícone">GitHub</a>
+
+            <a href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank" rel="noopener noreferrer">
+                <img id="icone-facebook" src="https://img.icons8.com/fluency/48/facebook.png" alt="icone-facebook">Facebook</a>
+
+            <a href="https://x.com/shamwell_souza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-x" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="icone-x">x</a>
+
+          <a href="https://t.me/Shamwellsouza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-Telegram" src="https://img.icons8.com/color/48/telegram-app--v1.png" alt="icone-Telegram">Telegram</a>
+        </nav>
+
+        <footer class="footer">
+            <p>Copyright © 2019 - 2025 Desenvolvido por Samuel Souza</p>
+        </footer>
+      </section>
+<script src="main.js"></script>
+</body>
+</html>

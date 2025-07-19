@@ -1,0 +1,188 @@
+        .priority-high {
+            @apply bg-danger/10 border-l-4 border-danger;
+        }
+
+        .priority-medium {
+            @apply bg-warning/10 border-l-4 border-warning;
+        }
+
+        .priority-low {
+            @apply bg-success/10 border-l-4 border-success;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 350px;
+            @apply w-full;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            @apply animate-fadeIn;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .stat-card {
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-select {
+            @apply w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-secondary;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .social-links img {
+            margin-right: 0.5rem;
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 1rem;
+            background-color: var(--background-light);
+            margin-top: 1rem;
+            font-size: 0.9rem;
+
+        }
+
+        @media (max-width: 600px) {
+            .game-features {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+        .image-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .image-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .expanded-image {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            transform: scale(0.8);
+            transition: transform 0.3s ease;
+        }
+
+        .image-overlay.active .expanded-image {
+            transform: scale(1);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .close-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        .image-card {
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-card img {
+            transition: transform 0.3s ease;
+        }
+
+        .image-card:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Prevenção de scroll quando overlay está ativo */
+        body.no-scroll {
+            overflow: hidden;
+        }
+
+        .logo {
+            width: 200px;            
+        }
+
+    

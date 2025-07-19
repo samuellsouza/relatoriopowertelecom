@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Demandas de Rede</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style_projeto.css">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2c3e50',
+                        secondary: '#3498db',
+                        danger: '#e74c3c',
+                        warning: '#f39c12',
+                        success: '#2ecc71',
+                        info: '#3498db',
+                        dark: '#1a202c',
+                        light: '#f7fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans min-h-screen flex flex-col">
+    <div class="container mx-auto px-4 flex-grow">
+        <!-- Header -->
+        <header class="bg-green-600 text-white rounded-br-lg rounded-bl-lg shadow-md mb-8 p-6 text-center">
+            <img class="logo inline-block" src="img/logo.png" alt="Logo">
+            <h1 class="text-3xl font-bold mb-2">Projetos e Planejamentos</h1>
+            <p class="text-lg opacity-90"></p>
+            <div class="mt-4 flex justify-center">
+                <!-- <span class="inline-block bg-secondary px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-calendar-alt mr-1"></i></span> -->
+            </div>
+            <!-- Navegação principal -->
+            <nav class="mt-4" role="navigation" aria-label="Navegação principal">
+                <div class="flex flex-wrap justify-center gap-2 md:gap-4">
+                    <a href="index.html"
+                        class="inline-block bg-green-700 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-300"
+                        aria-current="page">
+                        <i class="fas fa-home mr-1" aria-hidden="true"></i> Início
+                    </a>
+                    <a href="novo_projetos.html"
+                        class="inline-block bg-green-900 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 border-b-2 border-green-300 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-project-diagram mr-1" aria-hidden="true"></i> Novo Projetos
+                    </a>
+                    <a href="arquivos.html"
+                        class="inline-block bg-green-700 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-file mr-1" aria-hidden="true"></i> Arquivos
+                    </a>
+                    <a href="noc.html"
+                        class="inline-block bg-green-700 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-code-fork mr-1" aria-hidden="true"></i> NOC
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Conteúdo principal -->
+        <main role="main">
+            <section>
+                <!-- Navegação por abas -->
+                <nav class="mb-6" role="tablist" aria-label="Navegação por meses">
+                    <div class="flex flex-wrap border-b border-gray-200">
+                        <button
+                            class="tab-button active px-4 py-2 text-lg font-medium text-green-600 border-b-2 border-green-600 focus:outline-none focus:ring-2 focus:ring-green-300"
+                            data-tab="junho" role="tab" aria-selected="true" aria-controls="junho-content">
+                            Junho
+                        </button>
+                        <button
+                            class="tab-button px-4 py-2 text-lg font-medium text-gray-500 hover:text-gray-700 border-b-2 border-transparent hover:border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300"
+                            data-tab="julho" role="tab" aria-selected="false" aria-controls="julho-content">
+                            Julho
+                        </button>
+                        <button
+                            class="tab-button px-4 py-2 text-lg font-medium text-gray-500 hover:text-gray-700 border-b-2 border-transparent hover:border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300"
+                            data-tab="agosto" role="tab" aria-selected="false" aria-controls="agosto-content">
+                            Agosto
+                        </button>
+                        <button
+                            class="tab-button px-4 py-2 text-lg font-medium text-gray-500 hover:text-gray-700 border-b-2 border-transparent hover:border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-300"
+                            data-tab="setembro" role="tab" aria-selected="false" aria-controls="setembro-content">
+                            Setembro
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Conteúdo das abas -->
+                <div class="tab-content">
+                    <!-- Junho -->
+                    <div class="tab-pane active" id="junho-content" role="tabpanel" aria-labelledby="junho-tab">
+                        <section class="bg-white shadow-lg rounded-xl p-6 md:p-8">
+                            <h2
+                                class="text-2xl md:text-3xl font-extrabold mb-6 text-gray-900 border-b-2 border-gray-200 pb-3">
+                                Tarefas Importantes - Junho
+                            </h2>
+                            <div class="space-y-4">
+                                <div class="p-4 bg-gray-50 text-gray-500 rounded-lg shadow-sm text-center">
+                                    <i class="fas fa-check-circle text-2xl mb-2 text-gray-400" aria-hidden="true"></i>
+                                    <p class="italic">Nenhuma tarefa pendente no momento.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Julho -->
+                    <div class="tab-pane hidden" id="julho-content" role="tabpanel" aria-labelledby="julho-tab">
+                        <section class="bg-white shadow-lg rounded-xl p-6 md:p-8">
+                            <h2
+                                class="text-2xl md:text-3xl font-extrabold mb-6 text-gray-900 border-b-2 border-gray-200 pb-3">
+                                Tarefas Importantes - Julho
+                            </h2>
+                            <div class="space-y-6">
+                                <!-- Tarefa 1 -->
+                                <article
+                                    class="p-4 md:p-6 bg-blue-50 border-l-4 border-blue-600 text-blue-900 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                                    <header
+                                        class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-2">
+                                        <h3 class="text-lg font-semibold">
+                                            CONTINUIDADE DA 3º ROTA - SE X FSA
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span
+                                                class="text-xs font-medium text-yellow-800 bg-yellow-100 px-3 py-1 rounded-full">
+                                                <i class="fa-solid fa-star mr-1" aria-hidden="true"></i>
+                                                <strong>Status: Em Andamento</strong>
+                                            </span>
+                                            <span
+                                                class="text-xs font-medium text-blue-800 bg-blue-100 px-3 py-1 rounded-full">
+                                                Equipe de Marcos
+                                            </span>
+                                        </div>
+                                    </header>
+                                    <ul class="list-disc list-inside text-sm text-gray-700 ml-4 space-y-1">
+                                        <li>Precisamos comprar uma rosadeira.</li>
+                                    </ul>
+                                </article>
+
+                                <!-- Tarefa 2 -->
+                                <article
+                                    class="p-4 md:p-6 bg-green-50 border-l-4 border-green-600 text-green-900 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                                    <header
+                                        class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-2">
+                                        <h3 class="text-lg font-semibold">
+                                            ATIVAR REDUNDÂNCIA DO BRAVO
+                                        </h3>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span
+                                                class="text-xs font-medium text-green-800 bg-green-100 px-3 py-1 rounded-full">
+                                                <i class="fa-solid fa-circle-check mr-1" aria-hidden="true"></i>
+                                                <strong>Status: Concluído</strong>
+                                            </span>
+                                            <span
+                                                class="text-xs font-medium text-green-800 bg-green-100 px-3 py-1 rounded-full">
+                                                Equipe de Marcos
+                                            </span>
+                                        </div>
+                                    </header>
+                                    <ul class="list-disc list-inside text-sm text-gray-700 ml-4 space-y-1">
+                                        <li>Data para Ativação: 14/07/2025</li>
+                                    </ul>
+                                </article>
+
+                                <!-- Tarefa 3 -->
+                                <article
+                                    class="p-4 md:p-6 bg-yellow-50 border-l-4 border-yellow-600 text-yellow-900 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                                    <header
+                                        class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-2">
+                                        <h3 class="text-lg font-semibold">
+                                            MANUTENÇÃO DO BACKBONE FTTH DE BERIMBAU
+                                        </h3>
+                                        <span
+                                            class="text-xs font-medium text-yellow-800 bg-yellow-100 px-3 py-1 rounded-full self-start">
+                                            Equipe de Alexsandro
+                                        </span>
+                                    </header>
+                                    <ul class="list-disc list-inside text-sm text-gray-700 ml-4 space-y-1 mb-4">
+                                        <li>Trocar a Fibra de 36fo da CEO 7 até a CEO 10.</li>
+                                        <li>Refazer os ramais que saem de cada CEO.</li>
+                                    </ul>
+
+                                    <div
+                                        class="text-sm text-gray-700 p-4 bg-gray-50 border-l-2 border-gray-300 rounded">
+                                        <h4 class="font-bold text-gray-800 mb-2">Observações:</h4>
+                                        <p class="mb-2">
+                                            A correção será realizada devido aos rompimentos e cortes pela Coelba,
+                                            ocorridos em dezembro de 2024.
+                                        </p>
+                                        <p>
+                                            Estamos aguardando a compra da fibra para realizar a manutenção.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Agosto -->
+                    <div class="tab-pane hidden" id="agosto-content" role="tabpanel" aria-labelledby="agosto-tab">
+                        <section class="bg-white shadow-lg rounded-xl p-6 md:p-8">
+                            <h2
+                                class="text-2xl md:text-3xl font-extrabold mb-6 text-gray-900 border-b-2 border-gray-200 pb-3">
+                                Tarefas Importantes - Agosto
+                            </h2>
+                            <div class="space-y-4">
+                                <div class="p-4 bg-gray-50 text-gray-500 rounded-lg shadow-sm text-center">
+                                    <i class="fas fa-check-circle text-2xl mb-2 text-gray-400" aria-hidden="true"></i>
+                                    <p class="italic">Nenhuma tarefa pendente no momento.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Setembro -->
+                    <div class="tab-pane hidden" id="setembro-content" role="tabpanel" aria-labelledby="setembro-tab">
+                        <section class="bg-white shadow-lg rounded-xl p-6 md:p-8">
+                            <h2
+                                class="text-2xl md:text-3xl font-extrabold mb-6 text-gray-900 border-b-2 border-gray-200 pb-3">
+                                Tarefas Importantes - Setembro
+                            </h2>
+                            <div class="space-y-4">
+                                <div class="p-4 bg-gray-50 text-gray-500 rounded-lg shadow-sm text-center">
+                                    <i class="fas fa-check-circle text-2xl mb-2 text-gray-400" aria-hidden="true"></i>
+                                    <p class="italic">Nenhuma tarefa pendente no momento.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <section>
+        <nav class="social-links">
+            <a class="font-medium" href="http://WA.me/5575991790787" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp ícone">Whatsapp</a>
+
+            <a class="font-medium" href="https://www.instagram.com/shamwellsouza/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram ícone">Instagram</a>
+
+            <a class="font-medium" href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn ícone">LinkedIn</a>
+
+            <a class="font-medium" href="https://github.com/SamuelSouza" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/material-rounded/48/github.png" alt="GitHub ícone">GitHub</a>
+
+            <a class="font-medium" href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank" rel="noopener noreferrer">
+                <img id="icone-facebook" src="https://img.icons8.com/fluency/48/facebook.png"
+                    alt="icone-facebook">Facebook</a>
+
+            <a class="font-medium" href="https://x.com/shamwell_souza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-x" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="icone-x">x</a>
+
+            <a class="font-medium" href="https://t.me/Shamwellsouza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-Telegram" src="https://img.icons8.com/color/48/telegram-app--v1.png"
+                    alt="icone-Telegram">Telegram</a>
+        </nav>
+
+        <footer class="footer">
+            <p class="font-medium">Copyright © 2019 - 2025 Desenvolvido por <a class="hover:text-blue-900"
+                    href="https://samuelsouza.vercel.app/" target="_blank" rel="noopener noreferrer"><strong class="underline">Samuel Souza</strong> </a><span>Versão 1.0.2</span>
+        </footer>
+    </section>
+    
+    <!-- JavaScript para funcionalidade das abas -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const targetTab = this.getAttribute('data-tab');
+
+                    // Remove active class from all buttons and panes
+                    tabButtons.forEach(btn => {
+                        btn.classList.remove('active', 'text-green-600', 'border-green-600');
+                        btn.classList.add('text-gray-500', 'border-transparent');
+                        btn.setAttribute('aria-selected', 'false');
+                    });
+
+                    tabPanes.forEach(pane => {
+                        pane.classList.remove('active');
+                        pane.classList.add('hidden');
+                    });
+
+                    // Add active class to clicked button and corresponding pane
+                    this.classList.add('active', 'text-green-600', 'border-green-600');
+                    this.classList.remove('text-gray-500', 'border-transparent');
+                    this.setAttribute('aria-selected', 'true');
+
+                    const targetPane = document.getElementById(targetTab + '-content');
+                    if (targetPane) {
+                        targetPane.classList.add('active');
+                        targetPane.classList.remove('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

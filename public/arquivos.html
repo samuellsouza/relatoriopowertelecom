@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Demandas de Rede</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2c3e50',
+                        secondary: '#3498db',
+                        danger: '#e74c3c',
+                        warning: '#f39c12',
+                        success: '#2ecc71',
+                        info: '#3498db',
+                        dark: '#1a202c',
+                        light: '#f7fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <div class="container mx-auto px-4 py-6">
+        <!-- Header -->
+        <header class="bg-green-600 text-white rounded-xl shadow-md mb-8 p-6 text-center">
+            <img class="logo inline-block" src="img/logo.png" alt="Logo">
+            <h1 class="text-3xl font-bold mb-2">Fotos, Vídeos e Docuemntos</h1>
+            <p class="text-lg opacity-90"></p>
+            <div class="mt-4 flex justify-center">
+                <!--<span class="inline-block bg-secondary px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-calendar-alt mr-1"></i> Atualizado em: 26/06/2025
+                </span>-->
+            </div>
+            <div class="mt-4 flex justify-center gap-4">
+                <span>
+                    <a href="index.html"
+                    class="inline-block bg-green-700 hover:bg-green-500 px-3 py-1 rounded-full text-sm font-semibold transition">
+                    <i class="fas fa-home mr-1" aria-current="page"></i> Início
+                </a>
+                </span>
+                <a href="novo_projetos.html"
+                    class="inline-block bg-green-700 hover:bg-green-500 px-3 py-1 rounded-full text-sm font-semibold transition">
+                    <i class="fas fa-project-diagram mr-1"></i> Novo Projetos
+                </a>
+                <a href="arquivos.html"
+                    class="inline-block bg-green-800 hover:bg-green-500 px-3 py-1 rounded-full text-sm font-semibold transition border-b">
+                    <i class="fas fa-file mr-1"></i> Arquivos
+                </a>
+                <a href="noc.html"
+                    class="inline-block bg-green-700 hover:bg-green-500 px-3 py-1 rounded-full text-sm font-semibold transition">
+                    <i class="fas fa-code-fork mr-1"></i> NOC
+                </a>
+            </div>
+        </header>
+    </div>
+    <main class="text-center container mx-auto p-4 font-sans">
+        <h1 class="text-5xl font-bold header-gradient mb-4">
+            Arquivos
+        </h1>
+        <p class="text-center text-gray-600 text-lg max-w-2xl mx-auto">
+            Confira as imagens e vídeos
+        </p>
+        <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-6 mb-6 rounded-full"></div>
+        <section class="bg-white shadow-md rounded-lg p-4">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="foto.html"
+                            class="text-blue-600 hover:text-blue-800 hover:font-bold font-medium text-lg transition duration-300 ease-in-out">Imagens</a>
+                    </li>
+                    <li>
+                        <a href="videos.html"
+                            class="text-blue-600 hover:text-blue-800 font-medium hover:font-bold text-lg transition duration-300 ease-in-out">Vídeos</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-blue-600 hover:text-blue-800 font-medium hover:font-bold text-lg transition duration-300 ease-in-out">Documentos</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <section>
+        <nav class="social-links">
+            <a class="font-medium" href="http://WA.me/5575991790787" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp ícone">Whatsapp</a>
+
+            <a class="font-medium" href="https://www.instagram.com/shamwellsouza/" target="_blank"
+                rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram ícone">Instagram</a>
+
+            <a class="font-medium" href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank"
+                rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn ícone">LinkedIn</a>
+
+            <a class="font-medium" href="https://github.com/SamuelSouza" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/material-rounded/48/github.png" alt="GitHub ícone">GitHub</a>
+
+            <a class="font-medium" href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank"
+                rel="noopener noreferrer">
+                <img id="icone-facebook" src="https://img.icons8.com/fluency/48/facebook.png"
+                    alt="icone-facebook">Facebook</a>
+
+            <a class="font-medium" href="https://x.com/shamwell_souza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-x" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="icone-x">x</a>
+
+            <a class="font-medium" href="https://t.me/Shamwellsouza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-Telegram" src="https://img.icons8.com/color/48/telegram-app--v1.png"
+                    alt="icone-Telegram">Telegram</a>
+        </nav>
+
+        <footer class="footer">
+            <p class="font-medium">Copyright © 2019 - 2025 Desenvolvido por <a class="hover:text-blue-900"
+                    href="https://samuelsouza.vercel.app/" target="_blank" rel="noopener noreferrer"><strong
+                        class="underline">Samuel Souza</strong> </a><span>Versão 1.0.2</span>
+        </footer>
+    </section>
+    <script src="/main.js"></script>
+</body>
+
+</html>

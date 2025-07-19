@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Demandas de Rede</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/public/img/favicon.ico" type="image/x-icon">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2c3e50',
+                        secondary: '#3498db',
+                        danger: '#dc3545',
+                        warning: '#f39c12',
+                        success: '#2ecc71',
+                        info: '#3498db',
+                        dark: '#1a202c',
+                        light: '#f7fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <div class="container mx-auto px-4 ">
+        <!-- Header -->
+        <header class="bg-green-600 text-white rounded-br-lg rounded-bl-lg shadow-md mb-8 p-6 text-center shadow-xl">
+
+            <img class="logo inline-block" src="img/logo.png" alt="Logo">
+
+            <h1 class="text-3xl font-bold mb-2">Relatório de Demandas de Infraestrutura</h1>
+            <p class="text-lg opacity-90">Análise de ocorrências por mês, cidade e equipe</p>
+            <div class="mt-4 flex justify-center">
+                <span class="inline-block bg-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+                    <i class="fas fa-calendar-alt mr-1"></i> Atualizado em: 06/07/2025
+                </span>
+            </div>
+
+            <div class="mt-4 flex justify-center gap-4">
+
+                <nav>
+                    <a href="index.html"
+                        class="inline-block bg-green-900 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 border-b-2 border-green-300 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-home mr-1" aria-current="page"></i> Início
+                    </a>
+
+                    <a href="novo_projetos.html"
+                        class="inline-block bg-green-700 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-project-diagram mr-1"></i> Novo Projetos
+                    </a>
+                    <a href="arquivos.html"
+                        class="inline-block bg-green-700 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-file mr-1"></i> Arquivos
+                    </a>
+                    <a href="noc.html"
+                        class="inline-block bg-green-700 hover:bg-green-500 px-3 py-2 rounded-full text-sm font-semibold transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-300">
+                        <i class="fas fa-code-fork mr-1"></i> NOC
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Stats Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="stat-card bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg">
+                <div class="text-4xl font-bold text-primary mb-2" id="total-demands">0</div>
+                <div class="text-gray-500 uppercase text-sm font-semibold">
+                    <i class="fas fa-tasks mr-1"></i> Total de Demandas
+                </div>
+            </div>
+            <div class="stat-card bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg">
+                <div class="text-4xl font-bold text-primary mb-2" id="avg-duration">0h</div>
+                <div class="text-gray-500 uppercase text-sm font-semibold">
+                    <i class="fas fa-clock mr-1"></i> Duração Média
+                </div>
+            </div>
+            <div class="stat-card bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg">
+                <div class="text-4xl font-bold text-primary mb-2" id="high-priority">0</div>
+                <div class="text-gray-500 uppercase text-sm font-semibold">
+                    <i class="fas fa-exclamation-triangle mr-1 text-danger"></i> Prioridade Alta
+                </div>
+            </div>
+            <div class="stat-card bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg">
+                <div class="text-4xl font-bold text-primary mb-2" id="team-coverage">0%</div>
+                <div class="text-gray-500 uppercase text-sm font-semibold">
+                    <i class="fas fa-users mr-1"></i> Cobertura por Equipe
+                </div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="bg-white rounded-xl shadow-md p-6 mb-8 form-check">
+            <h2 class="text-xl font-semibold mb-4 text-primary">
+                <i class="fas fa-filter mr-2"></i>Filtros
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                    <label for="month-filter" class="block text-sm font-medium text-gray-700 mb-1">
+                        <i class="fas fa-calendar mr-1"></i> Mês
+                    </label>
+                    <select id="month-filter" class="filter-select">
+                        <option value="all">Todos os Meses</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="city-filter" class="block text-sm font-medium text-gray-700 mb-1">
+                        <i class="fas fa-city mr-1"></i> Cidade
+                    </label>
+                    <select id="city-filter" class="filter-select">
+                        <option value="all">Todas as Cidades</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="team-filter" class="block text-sm font-medium text-gray-700 mb-1">
+                        <i class="fas fa-users mr-1"></i> Equipe
+                    </label>
+                    <select id="team-filter" class="filter-select">
+                        <option value="all">Todas as Equipes</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="priority-filter" class="block text-sm font-medium text-gray-700 mb-1">
+                        <i class="fas fa-exclamation-circle mr-1"></i> Prioridade
+                    </label>
+                    <select id="priority-filter" class="filter-select">
+                        <option value="all">Todas as Prioridades</option>
+                        <option value="Alta">Alta</option>
+                        <option value="Media">Média</option>
+                        <option value="Baixa">Baixa</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- Tabs -->
+            <div class="flex flex-wrap border-b border-gray-200 mb-6">
+                <button class="tab px-4 py-2 font-medium text-sm rounded-t-lg mr-2 bg-green-600 text-white"
+                    data-tab="overview">
+                    <i class="fas fa-chart-pie mr-1"></i> Visão Geral
+                </button>
+                <button
+                    class="tab px-4 py-2 font-medium text-sm rounded-t-lg mr-2 bg-gray-200 text-gray-700 hover:bg-gray-300"
+                    data-tab="cities">
+                    <i class="fas fa-city mr-1"></i> Por Cidade
+                </button>
+                <button
+                    class="tab px-4 py-2 font-medium text-sm rounded-t-lg mr-2 bg-gray-200 text-gray-700 hover:bg-gray-300"
+                    data-tab="teams">
+                    <i class="fas fa-users mr-1"></i> Por Equipe
+                </button>
+                <button
+                    class="tab px-4 py-2 font-medium text-sm rounded-t-lg bg-gray-200 text-gray-700 hover:bg-gray-300"
+                    data-tab="details">
+                    <i class="fas fa-list-ul mr-1"></i> Detalhes
+                </button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="tab-content active" id="overview">
+                <div class="grid grid-cols-1 lg:grid-cols-1 gap-6 mb-8">
+                    <!-- Monthly Chart -->
+                    <div class="bg-white rounded-xl shadow-md px-6">
+                        <h2 class="text-xl font-semibold mb-4 text-primary">
+                            <i class="fas fa-chart-line mr-2"></i>Demandas por Mês
+                        </h2>
+                        <div class="chart-container">
+                            <canvas id="monthlyChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Occurrence Type Chart -->
+                    <div class="bg-white rounded-xl shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4 text-primary">
+                            <i class="fas fa-chart-pie mr-2"></i>Distribuição por Tipo de Ocorrência
+                        </h2>
+                        <div class="chart-container">
+                            <canvas id="occurrenceTypeChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Priority Chart -->
+                <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-semibold mb-4 text-primary">
+                        <i class="fas fa-exclamation-circle mr-2"></i>Distribuição por Prioridade
+                    </h2>
+                    <div class="chart-container">
+                        <canvas id="priorityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="cities">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                    <!-- City Chart -->
+                    <div class="bg-white rounded-xl shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4 text-primary">
+                            <i class="fas fa-city mr-2"></i>Demandas por Cidade
+                        </h2>
+                        <div class="chart-container">
+                            <canvas id="cityChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- City Duration Chart -->
+                    <div class="bg-white rounded-xl shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4 text-primary">
+                            <i class="fas fa-clock mr-2"></i>Duração Média por Cidade
+                        </h2>
+                        <div class="chart-container">
+                            <canvas id="cityDurationChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="teams">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                    <!-- Team Chart -->
+                    <div class="bg-white rounded-xl shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4 text-primary">
+                            <i class="fas fa-users mr-2"></i>Distribuição por Equipe
+                        </h2>
+                        <div class="chart-container">
+                            <canvas id="teamChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Team Efficiency Chart -->
+                    <div class="bg-white rounded-xl shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4 text-primary">
+                            <i class="fas fa-tachometer-alt mr-2"></i>Eficiência das Equipes
+                        </h2>
+                        <div class="chart-container">
+                            <canvas id="teamEfficiencyChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="details">
+                <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                    <h2 class="text-xl font-semibold mb-4 text-primary">
+                        <i class="fas fa-list-ul mr-2"></i>Detalhes das Demandas
+                    </h2>
+
+                    <!-- Gráfico de linhas Evolução das Demandas por Mês -->
+                    <div class="dashboard-section">
+                        <!--<h2 class="section-title">Evolução das Demandas por Mês</h2>-->
+                        <div class="chart-container details-chart-container">
+                            <canvas id="monthlyTrendChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="overflow-x-auto">
+                        <table id="detailsTable" class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        ID</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Data</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Cidade</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Tipo</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Equipe</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Prioridade</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Duração</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Observações</th>
+                                    <!--<th scope="col"
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Dia/Semana</th>-->
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main class="container mx-auto p-4 bg-gray-100 font-sans">
+
+    </div>
+
+    <section>
+        <nav class="social-links">
+            <a class="font-medium" href="http://WA.me/5575991790787" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp ícone">Whatsapp</a>
+
+            <a class="font-medium" href="https://www.instagram.com/shamwellsouza/" target="_blank"
+                rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram ícone">Instagram</a>
+
+            <a class="font-medium" href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank"
+                rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn ícone">LinkedIn</a>
+
+            <a class="font-medium" href="https://github.com/SamuelSouza" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/material-rounded/48/github.png" alt="GitHub ícone">GitHub</a>
+
+            <a class="font-medium" href="https://www.linkedin.com/in/samuel-souzaa/" target="_blank"
+                rel="noopener noreferrer">
+                <img id="icone-facebook" src="https://img.icons8.com/fluency/48/facebook.png"
+                    alt="icone-facebook">Facebook</a>
+
+            <a class="font-medium" href="https://x.com/shamwell_souza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-x" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="icone-x">x</a>
+
+            <a class="font-medium" href="https://t.me/Shamwellsouza" target="_blank" rel="noopener noreferrer">
+                <img id="icone-Telegram" src="https://img.icons8.com/color/48/telegram-app--v1.png"
+                    alt="icone-Telegram">Telegram</a>
+        </nav>
+
+        <footer class="footer">
+            <p class="font-medium">Copyright © 2019 - 2025 Desenvolvido por <a class="hover:text-blue-900"
+                    href="https://samuelsouza.vercel.app/" target="_blank" rel="noopener noreferrer"><strong
+                        class="underline">Samuel Souza</strong> </a><span>Versão 1.0.2</span>
+        </footer>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
