@@ -63,7 +63,7 @@ DEM_059;08/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas E
 DEM_060;09/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Quarta-feira
 DEM_061;10/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Quinta-feira
 DEM_062;11/07/202;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
-DEM_063;11/07/202;Julho;2025;Rompimento Backbone;;Teodoro Sampaio;Equipe 01 - Marcos;Rompimento da Fibra Backbone;Não;Alta;8h;Sexta-feira
+063;11/07/202;Julho;2025;Rompimento Backbone;;Teodoro Sampaio;Eq. 01 - Marcos;Rompimento da Fibra Backbone;Não;Alta;8h;Sexta-feira
 
 064;14/07/202;Julho;2025;Ativação de Redundância;;Serra Preta;Eq. 02 - Alexsandro;Ativar Redundância de Serra Preta X Bravo (Rota Feira de Santana);Não;Media;8h;Segunda-feira
 065;14/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Por motivo das chuvas a equipe não fez limpeza;Não;Media;0h;Segunda-feira
@@ -75,6 +75,11 @@ DEM_063;11/07/202;Julho;2025;Rompimento Backbone;;Teodoro Sampaio;Equipe 01 - Ma
 071;18/07/2025;Julho;2025;Instalação de CTO;;Berimbau;Eq. 02 - Alexsandro;Instalalar uma nova ctos no Ramal CEO 47-SP13;Não;Media;4h;Sexta-feira
 072;20/07/2025;Julho;2025;Plantão;;Santo Estêvão;Eq. 01 - Marcos;Troca de Poste | Remover a Fibra do poste para que a equipe da coelba possa trocar o poste.;Não;Media;4h;Domingo
 
+073;21/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Segunda-feira
+074;22/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terca-feira
+075;23/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
+076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
+076;25/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
 `;
 
 
