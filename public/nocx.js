@@ -1,9 +1,9 @@
 let atividade = [
 	{
-		"demanda" : "Troca do Switch de POP_Cavunge",
+		"demanda" : "Troca do Switch | POP_Cavunge",
         "cidade" : "Cavunge - Ipecaetá",
 		"atividade" : [
-			"Substituição do switch principal", 
+			"Substituição do switch principal do Backbone", 
 			"Configuração de rede e testes de conectividade",
             "Ativação do circuito de 10Gb | Santo Estêvão até Cavunge - Ipecaetá",
             "Foi Instalado Switch Raisecom Modelo: RAX711-R-4GC-AC/S"
@@ -74,16 +74,17 @@ let atividade = [
         "concluido" : "Não"
 	},
 
+    // Mudança do pop de Anguera
     {
 		"demanda" : "Mudar o POP-ANGUERA para o Escritorio",
         "cidade" : "Anguera",
 		"atividade" : [
+            "AGUARDADO A COMPRA DO MATERIAL DO SOLICITADO NO DIA 21/07",
 			"Refazer toda infraestrutura até a CEO MASTER.",
 			"A Manutenção será feita depois das 01h00.",
-            "A Equipe de também será acionanda para organização dos cabos.",
-            ""
+            "A Equipe de também será acionanda para organização dos cabos."
 		],
-		"agendamento" : "28/07/2025",
+		"agendamento" : "á defenir",
 		"equipe" : "Samuel",
 		"observacao" : "AGUARDANDO COMPRA DO MATERIAL.",
         "concluido" : "Não"
@@ -97,7 +98,7 @@ atividade.map((demanda) => {
                         class="bg-white border-l-4 border-yellow-500 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                         <div class="p-6">
                             <!-- Cabeçalho -->
-                            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-2 mb-4">
+                            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2 mb-4">
                                 <h3 class="text-xl font-semibold text-gray-800">
                                     ${demanda.demanda}
                                 </h3>
