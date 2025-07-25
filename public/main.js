@@ -69,7 +69,7 @@ DEM_062;11/07/202;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Eq
 065;14/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Por motivo das chuvas a equipe não fez limpeza;Não;Media;0h;Segunda-feira
 066;15/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terça-feira
 067;16/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
-068;17/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica (Obs.: 12Km já lançandos);Não;Media;8h;Quinta-feira
+068;17/07/2025;Julho;2025;Lançamento de 3Km de Fibra Optica;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica (Obs.: 12Km já lançandos);Não;Media;8h;Quinta-feira
 069;18/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina de Fibra;Não;Media;8h;Sexta-feira
 070;18/07/2025;Julho;2025;Troca Splitter 1X8 pra 1X16;E41.CTO.528;Berimbau;Eq. 02 - Alexsandro;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16;Não;Media;4h;Sexta-feira
 071;18/07/2025;Julho;2025;Instalação de CTO;;Berimbau;Eq. 02 - Alexsandro;Instalalar uma nova ctos no Ramal CEO 47-SP13;Não;Media;4h;Sexta-feira
@@ -79,7 +79,7 @@ DEM_062;11/07/202;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Eq
 074;22/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terca-feira
 075;23/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
 076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
-076;25/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
+076;25/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Opticaa;Não;Media;8h;Sexta-feira
 `;
 
 
