@@ -79,7 +79,13 @@ DEM_062;11/07/202;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Eq
 074;22/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terca-feira
 075;23/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
 076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
-076;25/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Opticaa;Não;Media;8h;Sexta-feira
+077;25/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Sexta-feira
+
+078;27/07/2025;Julho;2025;Rompimento Backbone;;Feira de Santana;Eq. 02 - Alexsandro;Rota 1 Fibra de 12fo | Feira de Santana X Santo Estêvão;Não;Media;4h;Domingo;https://maps.app.goo.gl/TTFEXkMzTBdy8u7o7
+
+079;28/07/2025;Julho;2025;CTO Parada;25-SP36 e 25-SP37;Berimbau;Eq. 01 - Marcos;Sinal da CTO OK, O Bairro estava sem energia ocasionando a desconexão de todos os clientes do ramal.;Não;Media;8h;Segunda-feira
+080;28/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;4h;Segunda-feira
+081;28/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Trabalhou no Plantão;Não;Media;8h;Segunda-feira
 `;
 
 
