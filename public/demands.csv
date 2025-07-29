@@ -1,0 +1,87 @@
+ID_Demanda;Data_Demanda;Mes;Ano;Tipo_Ocorrencia;CTO_Ramal;Cidade;Equipe_Responsavel;Observacoes;Tem_Localizacao;Prioridade;Duracao_Estimada
+DEM_001;02/04/2025;Abril;2025;Rompimento Backbone;;Feira de Santana/Berimbau;Não Especificada;2 rotas de Berimbau paradas - Rompimento fibra 12FO;Não;Alta;24h
+DEM_002;20/04/2025;Abril;2025;Poste pegou fogo;;Santo Estêvão;Não Especificada;CTO Parada/Poste pegou fogo - fibra danificada;Sim;Alta;12h
+DEM_003;03/04/2025;Abril;2025;Troca Splitter 1X8 pra 1X16;E47.CTO.97;Berimbau;Não Especificada;CTO lotada - Troca 1x8 para 1x16;Não;Media;4h
+DEM_004;03/04/2025;Abril;2025;CTO com sinal Alto;E36.CTO.510;Berimbau;Não Especificada;Todas as portas com sinal alto;Não;Media;6h
+DEM_005;03/04/2025;Abril;2025;Fibra Baixa;;Santo Estêvão;Não Especificada;Fibra backbone baixa - precisa catraca;Sim;Media;8h
+DEM_006;04/04/2025;Abril;2025;Troca Splitter 1X8 pra 1X16;E6.CTO.48;Berimbau;Não Especificada;CTO lotada - cliente pendente;Não;Media;4h
+DEM_007;03/04/2025;Abril;2025;CTO com sinal Alto;E36.CTO.510;Berimbau;Não Especificada;Verificação em CTOs anterior realizada;Não;Media;6h
+DEM_008;03/04/2025;Abril;2025;Troca Splitter 1X8 pra 1X16;E2.CTO.22;Berimbau;Não Especificada;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16 - cliente pendente;Não;Media;4h
+DEM_009;03/04/2025;Abril;2025;CTO com sinal Alto;E36.CTO.510;Berimbau;Não Especificada;Fora refeitas as fusões - sinal ajustado;Não;Media;8h
+DEM_010;04/04/2025;Abril;2025;Troca Splitter 1X8 pra 1X16;E6.CTO.48;Berimbau;Não Especificada;Troca de splitter concluída;Não;Media;4h
+DEM_011;07/04/2025;Abril;2025;CTO Parada;E45.CTO.553;Berimbau;Não Especificada;Troca de poste;Não;Media;6h
+DEM_012;07/04/2025;Abril;2025;CTO Parada;E45.CTO.553;Berimbau;Não Especificada;Fibra rompida;Não;Alta;12h
+DEM_013;14/04/2025;Abril;2025;Rompimento Backbone;;Serra Preta;Equipe 01 - Marcos;Fibra fazenda Zé Mota - parada em 2 caixas;Sim;Media;8h
+DEM_014;14/04/2025;Abril;2025;Troca Splitter 1X8 pra 1X16;E24.CTO.278;Berimbau;Equipe 01 - Marcos;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16;Não;Media;4h
+DEM_015;16/04/2025;Abril;2025;CTO Parada;E34.CTO;Berimbau;Equipe 02 - Alexsandro;Ramais parados;Não;Media;6h
+DEM_016;16/04/2025;Abril;2025;CTO Parada;E40.CTO;Berimbau;Equipe 01 - Marcos;Ramais parados;Não;Media;6h
+DEM_017;23/04/2025;Abril;2025;Rompimento Backbone;;Feira de Santana;Equipe 01 - Marcos;Rompimento fibra 12FO - Link Principal;Não;Alta;24h
+DEM_018;06/05/2025;Maio;2025;CTO Parada;E37.CTO.448-517;Berimbau;Equipe 01 - Marcos;Ramal E37 - multiplas CTOs paradas;Sim;Alta;12h
+DEM_019;07/05/2025;Maio;2025;CTO Parada;E37.CTO.511-514;Berimbau;Equipe 02 - Alexsandro;Mesmo ramal do dia anterior;Não;Alta;8h
+DEM_020;07/05/2025;Maio;2025;Troca Splitter 1X8 pra 1X16;E30.CTO.386;Berimbau;Equipe 02 - Alexsandro;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16;Não;Media;4h
+DEM_021;07/05/2025;Maio;2025;CTO com sinal Alto;E41.CTO.527;Berimbau;Equipe 02 - Alexsandro;Clientes com sinal alto;Não;Media;6h
+DEM_022;07/05/2025;Maio;2025;Rompimento Backbone;;Feira de Santana;Equipe 02 - Alexsandro;Fibra redundância - OLTs Marggiore e Alameda;Não;Alta;24h
+DEM_023;13/05/2025;Maio;2025;Rompimento Backbone;;Feira de Santana;Equipe 02 - Alexsandro;Fibra Link Principal - região shopping;Não;Alta;24h
+DEM_024;13/05/2025;Maio;2025;Manutenção POP;;Serra Preta;Equipe 02 - Alexsandro;Bateria estourou e pegou fogo;Não;Alta;12h
+DEM_025;15/05/2025;Maio;2025;Implantantação de poste de Eucalipto;;Berimbau;Equipe 01 - Marcos;Implantanção poste Gameleira;Não;Baixa;8h
+DEM_026;19/05/2025;Maio;2025;Manutenção Backbone;;Feira de Santana;Equipe 02 - Alexsandro;Link redundânte LeoNet parado;Sim;Media;6h
+DEM_027;23/05/2025;Maio;2025;Implantanção de Rede FTTH;;Berimbau;Equipe 01 - Marcos;Implementação rede FTTH Gameleira;Não;Baixa;16h
+DEM_028;26/05/2025;Maio;2025;Implantanção de Rede FTTH;;Berimbau;Equipe 01 - Marcos;Continuidade FTTH Gameleira - 10 CTOs;Não;Baixa;16h
+DEM_029;26/05/2025;Maio;2025;Interligação de Caixa Emenda;;Feira de Santana;Equipe 02 - Alexsandro;Conexão Power x JS Fibra - Rota 02;Sim;Media;8h
+DEM_030;26/05/2025;Maio;2025;Interligação de Caixa Emenda;;Feira de Santana;Equipe 02 - Alexsandro;Conexão Power x Portal Net;Sim;Media;8h
+DEM_031;02/06/2025;Junho;2025;Adequação Coelba;;Berimbau;Equipe 02 - Alexsandro;Reserva técnica fora do padrão;Não;Media;12h
+DEM_032;02/06/2025;Junho;2025;Backbone com sinal Alto;;Santo Estêvão/Feira de Santana;Equipe 02 - Alexsandro;Backbone principal com sinal alto;Não;Media;8h
+DEM_033;07/06/2025;Junho;2025;CTO Parada;E2.2.1/E2.2.2;Santo Estêvão;Equipe 01 - Marcos;Poda de Árvore;Sim;Media;6h
+DEM_034;07/06/2025;Junho;2025;Interligação de Caixa Emenda;;Feira de Santana;Equipe 02 - Alexsandro;Power x Starlink - redundãncia Berimbau;Não;Media;8h
+DEM_035;10/06/2025;Junho;2025;Adequação Coelba;;Berimbau;Equipe 02 - Alexsandro;Reserva técnica fora do padrão;Não;Media;12h
+DEM_036;11/06/2025;Junho;2025;CTO Parada;E10-18.9;Santo Estêvão;Equipe 01 - Marcos;Formiga na CTO;Não;Media;4h
+DEM_037;12/06/2025;Junho;2025;Rompimento Backbone;;Feira de Santana;Equipe 02 - Alexsandro;Fibra Principal Rota1 Berimbau;Não;Alta;24h
+DEM_038;13/06/2025;Junho;2025;Rompimento Backbone;;Berimbau;Equipe 01 - Marcos;Duas rotas de Conceição do Jacuipe;Não;Alta;24h
+DEM_039;13/06/2025;Junho;2025;Manutenção Backbone;;Feira de Santana;Ambas Equipes;Mudança de percurso da fibra;Sim;Media;16h
+DEM_040;13/06/2025;Junho;2025;Manutenção Backbone;;Feira de Santana;Ambas Equipes;Transferir fibra poste eucalipto para COELBA;Sim;Media;12h
+DEM_041;17/06/2025;Junho;2025;Manutenção Backbone;;Ipecaetá;Equipe 02 - Alexsandro;Lançamento 900m fibra - remoçao 5 caixas;Não;Media;16h
+DEM_042;17/06/2025;Junho;2025;Interligação de Caixa Emenda;;Santo Estêvão;Equipe 02 - Alexsandro;Power x DVDHouse - pontos EMBASA;Não;Media;8h
+DEM_043;18/06/2025;Junho;2025;Interligação de Caixa Emenda;;Feira de Santana;Equipe 02 - Alexsandro;Power x Startlink - link não estabelecido;Não;Media;8h
+DEM_044;21/06/2025;Junho;2025;CTO Parada;E31-393;Berimbau;Equipe 01 - Marcos;Sem mais informaçoes;Não;Media;6h
+DEM_045;22/06/2025;Junho;2025;CTO Parada;E4-7.7;Santo Estêvão;Equipe 01 - Marcos;Outras CTOs do ramal funcionando;Sim;Media;6h
+DEM_046;25/06/2025;Junho;2025;Manutenção Backbone;;Berimbau;Equipe 02 - Alexsandro;Caminhão quebrou fibra - 10 ramais parados;Sim;Alta;12h
+DEM_047;26/06/2025;Junho;2025;Rompimento Backbone;;Feira de Santana;Equipe 02 - Alexsandro;Fibra redundãncia - 3.311Km afetados;Não;Alta;24h
+DEM_048;26/06/2025;Junho;2025;Rompimento Backbone;;Feira de Santana;Equipe 02 - Alexsandro;Fibra OLT Maggiere - OLT não voltou;Não;Alta;24h
+DEM_049;27/06/2025;Junho;2025;Ativação Link;;Santo Estêvão;Equipe 02 - Alexsandro;Infraestrutura 3 pontos EMBASA;Não;Media;8h
+DEM_050;01/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Equipe 01 - Marcos;Limpeza Passagen da Fibra;Não;Media;8h
+DEM_051;01/07/2025;Julho;2025;Interligação de Caixa Emenda;;Feira de Santana;Equipe 02 - Alexsandro;Interligação;Não;Media;8h
+DEM_052;02/07/2025;Julho;2025;Interligação de Caixa Emenda;;Feira de Santana;Equipe 02 - Alexsandro;Power x Link_ip_Tely;Não;Media;8h
+DEM_053;02/07/2025;Julho;2025;Feriado;;Santo Estêvão;Equipe 01 - Marcos;Feriado 02 julho;Não;Baixa;0h;Quarta-feira
+DEM_054;03/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Equipe 01 - Marcos;Limpeza Passagen da Fibra;Não;Media;8h
+DEM_055;03/07/2025;Julho;2025;CTO com sinal Alto;;Berimbau;Equipe 02 - Alexsandro;Ramal E33 | Clientes com sinal alto;Não;Media;6h
+DEM_056;04/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Equipe 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
+DEM_057;04/07/2025;Julho;2025;Folga;;Santo Estêvão;Equipe 02 - Alexsandro;Folga porque trabalho no Feriado 02 julho;Não;Baixa;8h;Quarta-feira
+DEM_058;07/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Segunda-feira
+DEM_059;08/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terça-feira
+DEM_060;09/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Quarta-feira
+DEM_061;10/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Quinta-feira
+DEM_062;11/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
+063;11/07/2025;Julho;2025;Rompimento Backbone;;Teodoro Sampaio;Eq. 01 - Marcos;Rompimento da Fibra Backbone;Não;Alta;8h;Sexta-feira
+064;14/07/2025;Julho;2025;Ativação de Redundância;;Serra Preta;Eq. 02 - Alexsandro;Ativar Redundância de Serra Preta X Bravo (Rota Feira de Santana);Não;Media;8h;Segunda-feira
+065;14/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Por motivo das chuvas a equipe não fez limpeza;Não;Media;0h;Segunda-feira
+066;15/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terça-feira
+067;16/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
+068;17/07/2025;Julho;2025;Lançamento de 3Km de Fibra Optica;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica (Obs.: 12Km já lançandos);Não;Media;8h;Quinta-feira
+069;18/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina de Fibra;Não;Media;8h;Sexta-feira
+070;18/07/2025;Julho;2025;Troca Splitter 1X8 pra 1X16;E41.CTO.528;Berimbau;Eq. 02 - Alexsandro;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16;Não;Media;4h;Sexta-feira
+071;18/07/2025;Julho;2025;Instalação de CTO;;Berimbau;Eq. 02 - Alexsandro;Instalalar uma nova ctos no Ramal CEO 47-SP13;Não;Media;4h;Sexta-feira
+072;20/07/2025;Julho;2025;Plantão;;Santo Estêvão;Eq. 01 - Marcos;Troca de Poste | Remover a Fibra do poste para que a equipe da coelba possa trocar o poste.;Não;Media;4h;Domingo
+073;21/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Segunda-feira
+074;22/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terca-feira
+075;23/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
+076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
+077;24/07/2025;Julho;2025;Manutenção Backbone;;Teodoro Sampaio;Eq. 02 - Alexsandro;Troca de 20 alça no local da fibra arriada e manutenção na caixa de emenda do Backbone;Não;Media;8h;Quinta-feira
+078;25/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
+079;25/07/2025;Julho;2025;Manutenção preventiva;;Feira de Santana;Eq. 02 - Alexsandro;Bomfin de Feira | Recuamos uma sobra do ponto de quebra do loop e cortamos alguns galhos que estavam rachandas para evitar rompimentos.;Não;Media;8h;Sexta-feira
+080;27/07/2025;Julho;2025;Rompimento Backbone;;Feira de Santana;Eq. 02 - Alexsandro;Rota 1 Fibra de 12fo | Feira de Santana x Santo Estêvão;Não;Media;4h;Domingo;https://maps.app.goo.gl/TTFEXkMzTBdy8u7o7
+081;28/07/2025;Julho;2025;CTO Parada;25-SP36 e 25-SP37;Berimbau;Eq. 01 - Marcos;Sinal da CTO OK, O Bairro estava sem energia ocasionando a desconexão de todos os clientes do ramal.;Não;Media;8h;Segunda-feira
+082;28/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;4h;Segunda-feira
+083;28/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Trabalhou no Plantão;Não;Media;8h;Segunda-feira
+084;29/07/2025;Julho;2025;Lançamento de 3Km de Fibra Optica;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica (Obs.: 15Km já lançandos);Não;Media;8h;Terça-feira
+085;29/07/2025;Julho;2025;Poste pegou fogo;;Serra Preta;Eq. 02 - Alexsandro;Bravo | Poste pegou danificando a fibra que atende as CTOs;Não;Media;4h;Terça-feira;https://maps.app.goo.gl/tBFt73tDj7pHh7fn6
+

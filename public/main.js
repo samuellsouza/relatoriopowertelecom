@@ -1,7 +1,7 @@
 // Dados do CSV (convertidos para JSON)
 const csvData = `ID_Demanda;Data_Demanda;Mes;Ano;Tipo_Ocorrencia;CTO_Ramal;Cidade;Equipe_Responsavel;Observacoes;Tem_Localizacao;Prioridade;Duracao_Estimada
 DEM_001;02/04/2025;Abril;2025;Rompimento Backbone;;Feira de Santana/Berimbau;Não Especificada;2 rotas de Berimbau paradas - Rompimento fibra 12FO;Não;Alta;24h
-DEM_002;20/04/2025;Abril;2025;CTO Parada;;Santo Estêvão;Não Especificada;Poste pegou fogo - fibra danificada;Sim;Alta;12h
+DEM_002;20/04/2025;Abril;2025;Poste pegou fogo;;Santo Estêvão;Não Especificada;CTO Parada/Poste pegou fogo - fibra danificada;Sim;Alta;12h
 DEM_003;03/04/2025;Abril;2025;Troca Splitter 1X8 pra 1X16;E47.CTO.97;Berimbau;Não Especificada;CTO lotada - Troca 1x8 para 1x16;Não;Media;4h
 DEM_004;03/04/2025;Abril;2025;CTO com sinal Alto;E36.CTO.510;Berimbau;Não Especificada;Todas as portas com sinal alto;Não;Media;6h
 DEM_005;03/04/2025;Abril;2025;Fibra Baixa;;Santo Estêvão;Não Especificada;Fibra backbone baixa - precisa catraca;Sim;Media;8h
@@ -62,10 +62,10 @@ DEM_058;07/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas E
 DEM_059;08/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terça-feira
 DEM_060;09/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Quarta-feira
 DEM_061;10/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Quinta-feira
-DEM_062;11/07/202;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
-063;11/07/202;Julho;2025;Rompimento Backbone;;Teodoro Sampaio;Eq. 01 - Marcos;Rompimento da Fibra Backbone;Não;Alta;8h;Sexta-feira
+DEM_062;11/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
+063;11/07/2025;Julho;2025;Rompimento Backbone;;Teodoro Sampaio;Eq. 01 - Marcos;Rompimento da Fibra Backbone;Não;Alta;8h;Sexta-feira
 
-064;14/07/202;Julho;2025;Ativação de Redundância;;Serra Preta;Eq. 02 - Alexsandro;Ativar Redundância de Serra Preta X Bravo (Rota Feira de Santana);Não;Media;8h;Segunda-feira
+064;14/07/2025;Julho;2025;Ativação de Redundância;;Serra Preta;Eq. 02 - Alexsandro;Ativar Redundância de Serra Preta X Bravo (Rota Feira de Santana);Não;Media;8h;Segunda-feira
 065;14/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Por motivo das chuvas a equipe não fez limpeza;Não;Media;0h;Segunda-feira
 066;15/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terça-feira
 067;16/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
@@ -78,16 +78,25 @@ DEM_062;11/07/202;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Eq
 073;21/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Segunda-feira
 074;22/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Terca-feira
 075;23/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quarta-feira
-076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
-077;25/07/2025;Julho;2025;Lançamento de Bobina 3Km;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica;Não;Media;8h;Sexta-feira
+076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
+077;24/07/2025;Julho;2025;Manutenção Backbone;;Teodoro Sampaio;Eq. 02 - Alexsandro;Troca de 20 alça no local da fibra arriada e manutenção na caixa de emenda do Backbone;Não;Media;8h;Quinta-feira
+078;25/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
+079;25/07/2025;Julho;2025;Manutenção preventiva;;Feira de Santana;Eq. 02 - Alexsandro;Bomfin de Feira | Recuamos uma sobra do ponto de quebra do loop e cortamos alguns galhos que estavam rachandas para evitar rompimentos.;Não;Media;8h;Sexta-feira
+080;27/07/2025;Julho;2025;Rompimento Backbone;;Feira de Santana;Eq. 02 - Alexsandro;Rota 1 Fibra de 12fo | Feira de Santana x Santo Estêvão;Não;Media;4h;Domingo;https://maps.app.goo.gl/TTFEXkMzTBdy8u7o7
 
-078;27/07/2025;Julho;2025;Rompimento Backbone;;Feira de Santana;Eq. 02 - Alexsandro;Rota 1 Fibra de 12fo | Feira de Santana X Santo Estêvão;Não;Media;4h;Domingo;https://maps.app.goo.gl/TTFEXkMzTBdy8u7o7
+081;28/07/2025;Julho;2025;CTO Parada;25-SP36 e 25-SP37;Berimbau;Eq. 01 - Marcos;Sinal da CTO OK, O Bairro estava sem energia ocasionando a desconexão de todos os clientes do ramal.;Não;Media;8h;Segunda-feira
+082;28/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;4h;Segunda-feira
+083;28/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Trabalhou no Plantão;Não;Media;8h;Segunda-feira
+084;29/07/2025;Julho;2025;Lançamento de 3Km de Fibra Optica;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica (Obs.: 15Km já lançandos);Não;Media;8h;Terça-feira
+085;29/07/2025;Julho;2025;Poste pegou fogo;;Serra Preta;Eq. 02 - Alexsandro;Bravo | Poste pegou danificando a fibra que atende as CTOs;Não;Media;4h;Terça-feira;https://maps.app.goo.gl/tBFt73tDj7pHh7fn6
 
-079;28/07/2025;Julho;2025;CTO Parada;25-SP36 e 25-SP37;Berimbau;Eq. 01 - Marcos;Sinal da CTO OK, O Bairro estava sem energia ocasionando a desconexão de todos os clientes do ramal.;Não;Media;8h;Segunda-feira
-080;28/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas Equipes;Abrir caminho para passagen da bobina;Não;Media;4h;Segunda-feira
-081;28/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Trabalhou no Plantão;Não;Media;8h;Segunda-feira
 `;
 
+// Configurações globais
+const config = {
+    locale: navigator.language || 'pt-BR',
+    dateFormat: { year: 'numeric', month: '2-digit', day: '2-digit' },
+};
 
 // Parse CSV data
 function parseCSV(csv) {
