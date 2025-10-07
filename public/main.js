@@ -81,7 +81,7 @@ DEM_062;11/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas E
 076;24/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Quinta-feira
 077;24/07/2025;Julho;2025;Manutenção Backbone;;Teodoro Sampaio;Eq. 02 - Alexsandro;Troca de 20 alça no local da fibra arriada e manutenção na caixa de emenda do Backbone;Não;Media;8h;Quinta-feira
 078;25/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;Sexta-feira
-079;25/07/2025;Julho;2025;Manutenção preventiva;;Feira de Santana;Eq. 02 - Alexsandro;Bomfin de Feira | Recuamos uma sobra do ponto de quebra do loop e cortamos alguns galhos que estavam rachandas para evitar rompimentos.;Não;Media;8h;Sexta-feira
+079;25/07/2025;Julho;2025;Manutenção preventiva;;Feira de Santana;Eq. 02 - Alexsandro;Bonfim de Feira | Recuamos uma sobra do ponto de quebra do loop e cortamos alguns galhos que estavam rachandas para evitar rompimentos.;Não;Media;8h;Sexta-feira
 080;27/07/2025;Julho;2025;Rompimento Backbone;;Feira de Santana;Eq. 02 - Alexsandro;Rota 1 Fibra de 12fo | Feira de Santana x Santo Estêvão;Não;Media;4h;Domingo;https://maps.app.goo.gl/TTFEXkMzTBdy8u7o7
 
 081;28/07/2025;Julho;2025;CTO Parada;25-SP36 e 25-SP37;Berimbau;Eq. 01 - Marcos;Sinal da CTO OK, O Bairro estava sem energia ocasionando a desconexão de todos os clientes do ramal.;Não;Media;8h;Segunda-feira
@@ -89,6 +89,132 @@ DEM_062;11/07/2025;Julho;2025;Limpeza Passagen da Fibra;;Santo Estêvão;Ambas E
 083;28/07/2025;Julho;2025;Folga;;Santo Estêvão;Eq. 01 - Marcos;Trabalhou no Plantão;Não;Media;8h;Segunda-feira
 084;29/07/2025;Julho;2025;Lançamento de 3Km de Fibra Optica;;Santo Estêvão;Ambas Equipes;Lançamento de 3Km de Fibra Optica (Obs.: 15Km já lançandos);Não;Media;8h;Terça-feira
 085;29/07/2025;Julho;2025;Poste pegou fogo;;Serra Preta;Eq. 02 - Alexsandro;Bravo | Poste pegou danificando a fibra que atende as CTOs;Não;Media;4h;Terça-feira;https://maps.app.goo.gl/tBFt73tDj7pHh7fn6
+086;30/07/2025;Julho;2025;falta-adicionar;;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;8h
+087;30/07/2025;Julho;2025;falta-adicionar;;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;8h
+088;31/07/2025;Julho;2025;falta-adicionar;;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;8h
+089;31/07/2025;Julho;2025;falta-adicionar;;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;8h
+090;01/08/2025;Agosto;2025;falta-adicionar;;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;8h
+091;01/08/2025;Agosto;2025;falta-adicionar;;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;falta-adicionar;8h
+091;02/08/2025;Agosto;2025;Rompimento Backbone;;Serra Preta;Eq. 02 - Alexsandro;Bravo;não;Media;8h
+091;02/08/2025;Agosto;2025;CTO com sinal Alto;E3.CTO.44;Serra Preta;Eq. 02 - Alexsandro;Bravo;não;Media;8h
+
+xxx;04/08/2025;Agosto;2025;CTO Parada;;x;x;x;não;Media;8h
+xxx;04/08/2025;Agosto;2025;Manutenção de backbone;;x;x;x;não;Media;8h
+xxx;05/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;05/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;06/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;06/08/2025;Agosto;2025;Troca de Poste; CTO.E2-2.1;Teodoro Sampaio;Eq. 02 - Alexsandro;x;não;Media;8h
+xxx;07/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;07/08/2025;Agosto;2025;Rompimento Backbone;;Serra Preta;Eq. 02 - Alexsandro;Rompimento de cabo backbonex;não;Media;8h
+xxx;08/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;08/08/2025;Agosto;2025;CTO Parada;E3.CTO40;Rafael Jambeiro;Eq. 02 - Alexsandro;x;não;Media;8h
+
+xxx;11/08/2025;Agosto;2025;Troca Splitter 1X8 pra 1X16;E30.cto.380;Berimbau;Eq. 02 - Alexsandro;x;não;Media;8h
+xxx;11/08/2025;Agosto;2025;Analise de Viabilidade;;Ipecaetá;Eq. 02 - Alexsandro;Verifcação da disponibilidade e integridade dos FO do trecho Cavunge / Serra Pretanão;não;Media;8h
+xxx;11/08/2025;Agosto;2025;CTO com sinal Alto; E33.CTO e E34.CTO;Berimbau;x;x;não;Media;8h
+xxx;11/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;12/08/2025;Agosto;2025;CTO com sinal Alto;;Santo Estêvão;x;x;não;Media;8h
+xxx;12/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;13/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;13/08/2025;Agosto;2025;Troca Splitter 1X8 pra 1X16; CTO RJ-E7.CTO.97;Rafael Jambeiro;x;x;não;Media;8h
+xxx;13/08/2025;Agosto;2025;Rompimento Backbone;;Santo Estêvão;x;x;não;Media;8h
+xxx;14/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;14/08/2025;Agosto;2025;CTO Parada;;Santo Estêvão;x;x;não;Media;8h
+xxx;15/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;15/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;16/08/2025;Agosto;2025;pop-pegando-fogo;;Santo Estêvão;x;x;não;Media;8h
+xxx;16/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+
+xxx;18/08/2025;Agosto;2025;CTO Parada;CTO E14.cto.130 até E14.cto.136;Berimbau;x;x;x;não;Media;8h
+xxx;18/08/2025;Agosto;2025;Rompimento Backbone;;Feira de Santana;x;x;x;não;Media;8h
+xxx;18/08/2025;Agosto;2025;Manutenção de CTO;CTO.E9-15.1;Santo Estêvão;x;x;x;não;Media;8h
+xxx;19/08/2025;Agosto;2025;CTO com sinal Alto;CTO.E18-27.2;Santo Estêvão;x;x;x;não;Media;8h
+xxx;19/08/2025;Agosto;2025;Instalação de nova CTO;;Berimbau;x;x;x;não;Media;8h
+xxx;20/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;20/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;Manutenção de CTO;E 27.cto.535;;Berimbau;x;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;Troca Splitter 1X8 pra 1X16;;Berimbau;x;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;Manutenção de CTO;e13.cto.110;Berimbau;Foi trocado a fibra que atende a cto e13.cto.110.e 112, da ultima ves que houve um rompimento foi retirado sobra na e 13 as fibras ficaram cumuito curta com isso a pom nao chegava ao ponto pra trabalho foi trocado a fibra de 12 fo at.14.15.16;x;x;não;Media;8h
+xxx;22/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;22/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;23/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+xxx;23/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
+
+
+xxx;08/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;x;não;Media;8h
+xxx;08/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;não;Media;8h
+xxx;09/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;x;não;Media;8h
+xxx;09/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;não;Media;8h
+xxx;10/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;x;não;Media;8h
+xxx;10/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;não;Media;8h
+xxx;11/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica;não;Media;8h
+xxx;11/09/2025;Setembro;2025;Agrecação de links;;Anguer;aq. 01 - Marcos;x;x;não;Media;8h
+xxx;11/09/2025;Setembro;2025;Rompimento de cabo as que atende CTOs;;Bravo - Serra Preta;aq. 01 - Marcos;x;x;não;Media;8h
+xxx;12/09/2025;Setembro;2025;fibra que atende pop Serra preta X feira parada;;Bravo - Serra Preta;aq. 01 - Marcos;x;x;não;Media;8h
+xxx;12/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;x;não;Media;8h
+
+xxx;15/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica + Limpeza (Obs.: Restante da Bobina que ficou);Não;Media;8h;
+xxx;15/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;Lançamento de 3Km de Fibra Optica + Limpeza (Obs.: Restante da Bobina que ficou);Não;Media;8h;
+xxx;15/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Antônio Cardoso;Eq. 01 - Alexsandro;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;16/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;16/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Antônio Cardoso;Eq. 02 - Alexsandro;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;16/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Bruno;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;17/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;17/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Antônio Cardoso;Eq. 02 - Alexsandro;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;17/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;Lançamento de 3Km de Fibra Optica (Obs.: Bobina Nova);Não;Media;8h;
+xxx;17/09/2025;Setembro;2025;Travessia de Cabos de Fibra òptico;;Santo Estêvão;Eq. 02 - Alexsandro;Elevar o cabo de fibra ao máximo possível para a passagem do Trio elétrico.;Não;Media;2h;
+xxx;17/09/2025;Setembro;2025;MANUTENÇÃO DE CTO;;Santo Estêvão;Eq. 02 - Alexsandro;Elevar o cabo de fibra ao máximo possível para a passagem do Trio elétrico.;Não;Media;2h;
+xxx;18/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica;Não;Media;8h;
+xxx;18/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Antônio Cardoso;Eq. 02 - Alexsandro;Lançamento de 3Km de Fibra Optica;Não;Media;8h;
+xxx;18/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;Lançamento de 3Km de Fibra Optica;Não;Media;8h;
+xxx;19/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica;Não;Media;8h;
+xxx;19/09/2025;Setembro;2025;Ativação do Backbone;;Antônio Cardoso;Eq. 02 - Alexsandro;Ativação do Backbone e Divisão dos ramais;Não;Media;2h;
+xxx;19/09/2025;Setembro;2025;Troca Splitter 1X8 pra 1X16;E35.CTO.429;Berimbau;Eq. 02 - Alexsandro;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16(E35.CTO.429);Não;Media;2h;
+xxx;19/09/2025;Setembro;2025;Troca Splitter 1X8 pra 1X16;E5.CTO.33;Berimbau;Eq. 02 - Alexsandro;CTO lotada | TROCA DE SPLITTER 1X8 PRA 1X16(E5.CTO.33);Não;Media;4h;
+xxx;19/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;Lançamento de 3Km de Fibra Optica;Não;Media;8h;
+
+xxx;22/09/2025;Setembro;2025;Limpeza Passagen da Fibra;;Feira de Santana;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;
+xxx;22/09/2025;Setembro;2025;Limpeza Passagen da Fibra;;Feira de Santana;Eq. 03 - Bruno;Abrir caminho para passagen da bobina;Não;Media;8h;
+xxx;22/09/2025;Setembro;2025;Ativação do Backbone;;Antônio Cardoso;Eq. 02 - Alexsandro;Ativação do Backbone e Divisão dos ramais;Não;Media;8h;
+xxx;23/09/2025;Setembro;2025;Limpeza Passagen da Fibra;;Feira de Santana;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;
+xxx;23/09/2025;Setembro;2025;Limpeza Passagen da Fibra;;Feira de Santana;Eq. 03 - Bruno;Abrir caminho para passagen da bobina;Não;Media;8h;
+xxx;23/09/2025;Setembro;2025;Ativação do Backbone;;Antônio Cardoso;Eq. 02 - Alexsandro;Divisão dos ramais e migração dos clientes;Não;Media;8h;
+xxx;24/09/2025;Setembro;2025;Limpeza Passagen da Fibra;;Feira de Santana;Eq. 01 - Marcos;Abrir caminho para passagen da bobina;Não;Media;8h;
+xxx;24/09/2025;Setembro;2025;Instalação de CTO;;Santo Estêvão;Eq. 02 - Alexsandro;Instalação de 02 CTO no conjunto Lagoinhas;Não;Media;8h;
+xxx;24/09/2025;Setembro;2025;Instalação de CTO;;Antônio Cardoso;Eq. 02 - Alexsandro;Lançamento do backbone de 01 CTO em Santo Estêvão Velho;Não;Media;8h;
+xxx;24/09/2025;Setembro;2025;Limpeza Passagen da Fibra;;Feira de Santana;Eq. 03 - Bruno;Abrir caminho para passagen da bobina;Não;Media;8h;
+xxx;25/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;O Lançamento foi feito na madrugada por conta da travessia do fibra;Não;Media;8h;
+xxx;25/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 03 - Bruno;O Lançamento foi feito na madrugada por conta da travessia do fibra;Não;Media;8h;
+xxx;25/09/2025;Setembro;2025;Instalação de CTO;;Antônio Cardoso;Eq. 02 - Alexsandro;Instalação de 01 CTO em Santo Estêvão Velho;Não;Media;8h;
+xxx;25/09/2025;Setembro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das ferragens do FTTH;Não;Media;8h;
+xxx;26/09/2025;Setembro;2025;Instalação de ferragens;;Feira de Santana;Eq. 01 - Marcos;Conclusão da 3º Rota;Não;Media;8h;
+xxx;26/09/2025;Setembro;2025;Instalação de ferragens;;Feira de Santana;Eq. 03 - Bruno;Conclusão da 3º Rota;Não;Media;8h;
+xxx;26/09/2025;Setembro;2025;Rompimento Backbone;;Feira de Santana;Eq. 02 - Alexsandro;Backbone que atende a COREN;Não;Media;8h;
+xxx;26/09/2025;Setembro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das ferragens do FTTH;Não;Media;8h;
+
+xxx;29/09/2025;Setembro;2025;Travessia do Ria Jacuipe0 - Fibra as300;;Feira de Santana;Eq. 01 - Marcos;A Travessia foi feita por barco de pescadores local;Não;Media;8h;
+xxx;29/09/2025;Setembro;2025;Travessia do Ria Jacuipe0 - Fibra as300;;Feira de Santana;Eq. 03 - Bruno;A Travessia foi feita por barco de pescadores local;Não;Media;8h;
+xxx;29/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;O Lançamento foi feito na madrugada por conta da travessia do fibra;Não;Media;8h;
+xxx;29/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 03 - Bruno;O Lançamento foi feito na madrugada por conta da travessia do fibra;Não;Media;8h;
+xxx;29/09/2025;Setembro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das ferragens do FTTH;Não;Media;8h;
+xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Prf as caixa e duas travesia uma do pau de vela e outra chegando no rio;Não;Media;8h;
+xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 03 - Bruno;x;Não;Media;8h;
+xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;x;x;Não;Media;8h;
+xxx;30/09/2025;Setembro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
+xxx;01/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 01 - Marcos;Lançamento do cabo optico para passar na PRF;Não;Media;8h;
+xxx;01/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 03 - Bruno;Lançamento do cabo optico para passar na PRF;Não;Media;8h;
+xxx;01/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
+xxx;02/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 01 - Marcos;Escavar 02 buracos para Implantantação dos poste de eucalipto;Não;Media;8h;
+xxx;02/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 03 - Bruno;Escavar 02 buracos para Implantantação dos poste de eucalipto;Não;Media;8h;
+xxx;02/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
+xxx;03/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 01 - Marcos;Implantantação dos postes e lancamento da Fibra;Não;Media;8h;
+xxx;03/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
+xxx;03/10/2025;Outubro;2025;folga;;Santo Estêvão;;Eq. 03 - Bruno;O carro foi emprestado para o evento BTX25;Não;Media;8h;
+
+xxx;06/10/2025;Outubro;2025;Manutenção de backbone;;Bonfim de Feira;Eq. 01 - Marcos;O dono do terreno ta abrindo um condomínio, e precisou colocar a fibra mas alta;Não;Media;8h;
+xxx;06/10/2025;Outubro;2025;Adequação Coelba;;Anguera;Eq. 01 - Marcos;eserva técnica fora do padrão;Não;Media;8h;
+xxx;06/10/2025;Outubro;2025;Poste pegou fogo;;Eq. 02 - Alexsandro;Poste pegou fogo ocasionando a para de 05 do Ramal;Não;Media;8h;
 
 `;
 
@@ -417,6 +543,8 @@ function updateOccurrenceTypeChart(filteredData) {
         });
     }
 }
+
+
 
 // Update priority chart
 function updatePriorityChart(filteredData) {

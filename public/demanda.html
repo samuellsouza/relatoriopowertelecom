@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão de Demandas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-lg shadow-lg w-full max-w-2xl overflow-hidden">
+        <!-- Cabeçalho -->
+        <div class="bg-blue-600 text-white p-6">
+            <h1 class="text-2xl font-bold flex items-center">
+                <i class="fas fa-tasks mr-3"></i>Registro de Demanda
+            </h1>
+            <p class="text-blue-100 mt-1">Preencha os dados da demanda abaixo</p>
+        </div>
+        
+        <!-- Formulário -->
+        <form id="demandaForm" class="p-6 space-y-5">
+            <!-- Data da Demanda -->
+            <div>
+                <label for="data_demanda" class="block text-sm font-medium text-gray-700 mb-1">
+                    <i class="fas fa-calendar-day text-blue-500 mr-2"></i>Data da Demanda
+                </label>
+                <input type="date" id="data_demanda" name="data_demanda" required
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+            </div>
+            
+            <!-- Tipo da Demanda -->
+            <div>
+                <label for="tipo_demanda" class="block text-sm font-medium text-gray-700 mb-1">
+                    <i class="fas fa-wrench text-blue-500 mr-2"></i>Tipo da Demanda
+                </label>
+                    <select id="cidade" name="cidade" required
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    <option value="" disabled selected>Selecione a Demanda</option>
+                    <option value="Santo Estêvão">Lançamento de 3Km de Fibra Optica</option>
+                    <option value="Feira de Santana">MANUTENÇÃO DE CTO</option>
+                    <option value="Antônio Cardoso">Troca Splitter 1X8 pra 1X16</option>
+                    <option value="Serra Preta">Limpeza Passagen da Fibra</option>
+                </select>
+            </div>
+            
+            <!-- Cidade -->
+            <div>
+                <label for="cidade" class="block text-sm font-medium text-gray-700 mb-1">
+                    <i class="fas fa-city text-blue-500 mr-2"></i>Cidade
+                </label>
+                <select id="cidade" name="cidade" required
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    <option value="" disabled selected>Selecione uma cidade</option>
+                    <option value="Santo Estêvão">Santo Estêvão</option>
+                    <option value="Feira de Santana">Feira de Santana</option>
+                    <option value="Antônio Cardoso">Antônio Cardoso</option>
+                    <option value="Serra Preta">Serra Preta</option>
+                </select>
+            </div>
+            
+            <!-- Equipe -->
+            <div>
+                <label for="equipe" class="block text-sm font-medium text-gray-700 mb-1">
+                    <i class="fas fa-users text-blue-500 mr-2"></i>Equipe
+                </label>
+                <select id="equipe" name="equipe" required
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    <option value="" disabled selected>Selecione uma equipe</option>
+                    <option value="Eq. 01 - Marcos">Eq. 01 - Marcos</option>
+                    <option value="Eq. 02 - Alexsandro">Eq. 02 - Alexsandro</option>
+                    <option value="Eq. 03 - Everton">Eq. 03 - Everton</option>
+                </select>
+            </div>
+            
+            <!-- Observação -->
+            <div>
+                <label for="observacao" class="block text-sm font-medium text-gray-700 mb-1">
+                    <i class="fas fa-sticky-note text-blue-500 mr-2"></i>Observação
+                </label>
+                <textarea id="observacao" name="observacao" rows="3" 
+                    placeholder="Detalhes adicionais sobre a demanda..."
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-4">
+                <!-- Concluído -->
+                <div>
+                    <label for="concluido" class="block text-sm font-medium text-gray-700 mb-1">
+                        <i class="fas fa-check-circle text-blue-500 mr-2"></i>Concluído
+                    </label>
+                    <select id="concluido" name="concluido" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="Sim">Sim</option>
+                        <option value="Não" selected>Não</option>
+                    </select>
+                </div>
+                
+                <!-- Prioridade -->
+                <div>
+                    <label for="prioridade" class="block text-sm font-medium text-gray-700 mb-1">
+                        <i class="fas fa-exclamation-triangle text-blue-500 mr-2"></i>Prioridade
+                    </label>
+                    <select id="prioridade" name="prioridade" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média" selected>Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Duração da Demanda -->
+            <div>
+                <label for="duracao_demanda" class="block text-sm font-medium text-gray-700 mb-1">
+                    <i class="fas fa-clock text-blue-500 mr-2"></i>Duração da Demanda
+                </label>
+                <select id="duracao_demanda" name="duracao_demanda" required
+                    class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    <option value="2h">2 horas</option>
+                    <option value="4h">4 horas</option>
+                    <option value="8h">8 horas</option>
+                </select>
+            </div>
+            
+            <!-- Botões -->
+            <div class="flex justify-between pt-4">
+                <button type="reset" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                    <i class="fas fa-times mr-2"></i>Limpar
+                </button>
+                <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <i class="fas fa-paper-plane mr-2"></i>Enviar Demanda
+                </button>
+            </div>
+        </form>
+        
+        <!-- Rodapé -->
+        <div class="bg-gray-100 p-4 text-center text-sm text-gray-500">
+            Sistema de Gestão de Demandas &copy; 2023
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('demandaForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Validação básica
+            const dataDemanda = document.getElementById('data_demanda').value;
+            if (!dataDemanda) {
+                alert('Por favor, preencha a data da demanda.');
+                return;
+            }
+            
+            // Coletar dados do formulário
+            const formData = {
+                data_demanda: dataDemanda,
+                mes: document.getElementById('mes').value,
+                ano: document.getElementById('ano').value,
+                tipo_demanda: document.getElementById('tipo_demanda').value,
+                cidade: document.getElementById('cidade').value,
+                equipe: document.getElementById('equipe').value,
+                observacao: document.getElementById('observacao').value,
+                concluido: document.getElementById('concluido').value,
+                prioridade: document.getElementById('prioridade').value,
+                duracao_demanda: document.getElementById('duracao_demanda').value
+            };
+            
+            // Exibir dados no console (substituir por envio para back-end)
+            console.log('Dados a serem enviados:', JSON.stringify(formData, null, 2));
+            
+            // Simulação de envio bem-sucedido
+            alert('Demanda enviada com sucesso! O ID será gerado pelo back-end.');
+            this.reset();
+        });
+
+        // Preencher automaticamente o campo de mês com base na data selecionada
+        document.getElementById('data_demanda').addEventListener('change', function() {
+            const data = new Date(this.value);
+            const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", 
+                          "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+            if (!isNaN(data.getTime())) {
+                document.getElementById('mes').value = meses[data.getMonth()];
+            }
+        });
+    </script>
+</body>
+</html>
