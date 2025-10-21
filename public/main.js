@@ -125,17 +125,17 @@ xxx;15/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
 xxx;16/08/2025;Agosto;2025;pop-pegando-fogo;;Santo Estêvão;x;x;não;Media;8h
 xxx;16/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
 
-xxx;18/08/2025;Agosto;2025;CTO Parada;CTO E14.cto.130 até E14.cto.136;Berimbau;x;x;x;não;Media;8h
-xxx;18/08/2025;Agosto;2025;Rompimento Backbone;;Feira de Santana;x;x;x;não;Media;8h
-xxx;18/08/2025;Agosto;2025;Manutenção de CTO;CTO.E9-15.1;Santo Estêvão;x;x;x;não;Media;8h
-xxx;19/08/2025;Agosto;2025;CTO com sinal Alto;CTO.E18-27.2;Santo Estêvão;x;x;x;não;Media;8h
-xxx;19/08/2025;Agosto;2025;Instalação de nova CTO;;Berimbau;x;x;x;não;Media;8h
+xxx;18/08/2025;Agosto;2025;CTO Parada;CTO E14.cto.130 até E14.cto.136;Berimbau;x;x;não;Media;8h
+xxx;18/08/2025;Agosto;2025;Rompimento Backbone;;Feira de Santana;x;x;não;Media;8h
+xxx;18/08/2025;Agosto;2025;Manutenção de CTO;CTO.E9-15.1;Santo Estêvão;x;x;não;Media;8h
+xxx;19/08/2025;Agosto;2025;CTO com sinal Alto;CTO.E18-27.2;Santo Estêvão;x;x;não;Media;8h
+xxx;19/08/2025;Agosto;2025;Instalação de nova CTO;;Berimbau;x;x;não;Media;8h
 xxx;20/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
 xxx;20/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
 xxx;21/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
-xxx;21/08/2025;Agosto;2025;Manutenção de CTO;E 27.cto.535;;Berimbau;x;x;x;não;Media;8h
-xxx;21/08/2025;Agosto;2025;Troca Splitter 1X8 pra 1X16;;Berimbau;x;x;x;não;Media;8h
-xxx;21/08/2025;Agosto;2025;Manutenção de CTO;e13.cto.110;Berimbau;Foi trocado a fibra que atende a cto e13.cto.110.e 112, da ultima ves que houve um rompimento foi retirado sobra na e 13 as fibras ficaram cumuito curta com isso a pom nao chegava ao ponto pra trabalho foi trocado a fibra de 12 fo at.14.15.16;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;Manutenção de CTO;E 27.cto.535;;Berimbau;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;Troca Splitter 1X8 pra 1X16;;Berimbau;x;x;não;Media;8h
+xxx;21/08/2025;Agosto;2025;Manutenção de CTO;e13.cto.110;Berimbau;Foi trocado a fibra que atende a cto e13.cto.110.e 112, da ultima ves que houve um rompimento foi retirado sobra na e 13 as fibras ficaram cumuito curta com isso a pom nao chegava ao ponto pra trabalho foi trocado a fibra de 12 fo at.14.15.16;x;não;Media;8h
 xxx;22/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
 xxx;22/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
 xxx;23/08/2025;Agosto;2025;x;;x;x;x;não;Media;8h
@@ -149,10 +149,11 @@ xxx;09/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santan
 xxx;10/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;x;não;Media;8h
 xxx;10/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;não;Media;8h
 xxx;11/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica;não;Media;8h
-xxx;11/09/2025;Setembro;2025;Agrecação de links;;Anguer;aq. 01 - Marcos;x;x;não;Media;8h
-xxx;11/09/2025;Setembro;2025;Rompimento de cabo as que atende CTOs;;Bravo - Serra Preta;aq. 01 - Marcos;x;x;não;Media;8h
-xxx;12/09/2025;Setembro;2025;fibra que atende pop Serra preta X feira parada;;Bravo - Serra Preta;aq. 01 - Marcos;x;x;não;Media;8h
-xxx;12/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;x;não;Media;8h
+xxx;11/09/2025;Setembro;2025;Agrecação de links;;Anguer;aq. 01 - Marcos;x;não;Media;8h
+xxx;11/09/2025;Setembro;2025;Rompimento de cabo as que atende CTOs;;Bravo - Serra Preta;aq. 01 - Marcos;x;não;Media;8h
+xxx;12/09/2025;Setembro;2025;fibra que atende pop Serra preta X feira parada;;Bravo - Serra Preta;aq. 01 - Marcos;x;não;Media;8h
+xxx;12/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;x;não;Media;8h
+
 
 xxx;15/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Lançamento de 3Km de Fibra Optica + Limpeza (Obs.: Restante da Bobina que ficou);Não;Media;8h;
 xxx;15/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de santana;Eq. 03 - Everton;Lançamento de 3Km de Fibra Optica + Limpeza (Obs.: Restante da Bobina que ficou);Não;Media;8h;
@@ -198,10 +199,11 @@ xxx;29/09/2025;Setembro;2025;Travessia do Ria Jacuipe0 - Fibra as300;;Feira de S
 xxx;29/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;O Lançamento foi feito na madrugada por conta da travessia do fibra;Não;Media;8h;
 xxx;29/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 03 - Bruno;O Lançamento foi feito na madrugada por conta da travessia do fibra;Não;Media;8h;
 xxx;29/09/2025;Setembro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das ferragens do FTTH;Não;Media;8h;
-xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Prf as caixa e duas travesia uma do pau de vela e outra chegando no rio;Não;Media;8h;
+xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 01 - Marcos;Prf as caixa e duas travesia uma do pau de vela e outra chegando no rio;Não;Media;8h;
 xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;Eq. 03 - Bruno;x;Não;Media;8h;
 xxx;30/09/2025;Setembro;2025;Lançamento de 3Km de Fibra Optica;;Feira de Santana;x;x;Não;Media;8h;
 xxx;30/09/2025;Setembro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
+
 xxx;01/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 01 - Marcos;Lançamento do cabo optico para passar na PRF;Não;Media;8h;
 xxx;01/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 03 - Bruno;Lançamento do cabo optico para passar na PRF;Não;Media;8h;
 xxx;01/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
@@ -210,11 +212,35 @@ xxx;02/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de San
 xxx;02/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
 xxx;03/10/2025;Outubro;2025;Implantantação de Poste de Eucalipto;;Feira de Santana;Eq. 01 - Marcos;Implantantação dos postes e lancamento da Fibra;Não;Media;8h;
 xxx;03/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 02 - Alexsandro;10REs - Instalação das caixas CTOs;Não;Media;8h;
-xxx;03/10/2025;Outubro;2025;folga;;Santo Estêvão;;Eq. 03 - Bruno;O carro foi emprestado para o evento BTX25;Não;Media;8h;
+xxx;03/10/2025;Outubro;2025;folga;;Santo Estêvão;Eq. 03 - Bruno;O carro foi emprestado para o evento BTX25;Não;Media;8h;
 
 xxx;06/10/2025;Outubro;2025;Manutenção de backbone;;Bonfim de Feira;Eq. 01 - Marcos;O dono do terreno ta abrindo um condomínio, e precisou colocar a fibra mas alta;Não;Media;8h;
 xxx;06/10/2025;Outubro;2025;Adequação Coelba;;Anguera;Eq. 01 - Marcos;eserva técnica fora do padrão;Não;Media;8h;
-xxx;06/10/2025;Outubro;2025;Poste pegou fogo;;Eq. 02 - Alexsandro;Poste pegou fogo ocasionando a para de 05 do Ramal;Não;Media;8h;
+xxx;06/10/2025;Outubro;2025;Poste pegou fogo;;Santo Estêvão;Eq. 02 - Alexsandro;Poste pegou fogo ocasionando a para de 05 do Ramal;Não;Media;8h;
+
+xxx;07/10/2025;Outubro;2025;Ativação da CEO;;Santo Estêvão;Eq. 01 - Marcos;Foram Feitas as fusões de 06 Caixa de emenda;Não;Media;8h;
+xxx;07/10/2025;Outubro;2025;Lançamento de Fibra;;Feira de Santana;Eq. 01 - Marcos;Travesia do cabo opico depois da PRF - Equipe trababou na Madrugado;Não;Media;8h;
+xxx;07/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 02 - Alexsandro;Sítio do Aragão | Inicio do lancamento das ferragens;Não;Media;8h;
+xxx;07/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Rafael Jambeiro;Eq. 03 - Bruno;10Res - Conclusão Instalação das caixas CTOs;Não;Media;8h;
+
+xxx;08/10/2025;Outubro;2025;Fola;;Eq. 01 - Marcos;Equipe trababou na Madrugado;Não;Media;8h;
+xxx;08/10/2025;Outubro;2025;Interligação de Caixa Emenda;;Feira de Santana;Eq. 02 - Alexsandro;Foi linkanda mas um Fibra pra CEO da Starlink para ativação de 40Gb;Não;Media;8h;
+xxx;08/10/2025;Outubro;2025;Suporte;;Troca de Splitter e mudanças do link;Santo Estêvão;Eq. 02 - Alexsandro;Foi transferindo o transporte saindo da CEO em vez da CTO;Não;Media;8h;
+xxx;08/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 03 - Bruno;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
+
+xxx;09/10/2025;Outubro;2025;Ativação da CEO;;Eq. 01 - Marcos;Ativação/Fusões da caixas de emendas;Não;Media;8h;
+xxx;09/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 02 - Alexsandro;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
+xxx;09/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 03 - Bruno;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
+
+xxx;10/10/2025;Outubro;2025;Ativação da CEO;;Eq. 01 - Marcos;Conclusão das funsões do trecho;Não;Media;8h;
+xxx;10/10/2025;Outubro;2025;CTO parada;CTO.E14-23.8;Santo Estêvão;Eq. 02 - Alexsandro;CTO parou depois que o poste pegou 1 dia depois;Não;Media;8h;
+xxx;10/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 03 - Bruno;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
+xxx;10/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 02 - Alexsandro;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
+
+xxx;20/10/2025;Outubro;2025;Lançamento de Fibra;;Santo Estêvão;Eq. 01 - Marcos;Lançamento do cabo optico;Não;Media;8h;
+xxx;20/10/2025;Outubro;2025;Manutenção na CTO;CTO.E25-34.16;Santo Estêvão;Eq. 01 - Marcos;CTO com sinal alto;Não;Media;8h;
+xxx;20/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 03 - Bruno;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
+xxx;20/10/2025;Outubro;2025;Implantanção de Rede FTTH;;Santo Estêvão;Eq. 02 - Alexsandro;Sitio do Aragão - Lançamento das ferragens;Não;Media;8h;
 
 `;
 
@@ -734,6 +760,7 @@ function updateTeamChart(filteredData) {
         return filteredData.filter(item => {
             if (team === 'Equipe 01 - Marcos') return item.Equipe_Responsavel.includes('Equipe 01');
             if (team === 'Equipe 02 - Alexsandro') return item.Equipe_Responsavel.includes('Equipe 02');
+            if (team === 'Equipe 03 - Bruno') return item.Equipe_Responsavel.includes('Equipe 03');
             if (team === 'Ambas Equipes') return item.Equipe_Responsavel.includes('Ambas');
             return item.Equipe_Responsavel === 'Não Especificada';
         }).length;
